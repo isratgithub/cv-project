@@ -1,0 +1,157 @@
+*{
+	margin:0;
+	padding:0;
+}
+.container{
+	width:70%;
+	margin:auto;
+    
+}
+h3{
+	color:#0047b3;
+}
+.header:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.header .header-left{
+	width:30%;
+	float:left;
+	background-color:#0047b3;
+	height:35px;
+}
+.header .header-right{
+	width:70%;
+	float:left;
+	background-color: #e6e6e6;
+	height:35px;
+}
+.body-content:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.container:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.body-content .container{
+	background-color: #e6e6e6;
+}
+.body-content .body-content-left{
+	width:30%;
+	float:left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.body-content .body-content-left h2{
+	margin:15px;
+	color:#0047b3;
+}
+.body-content .body-content-left img{
+	width:160px;
+	height:160px;
+	border-radius:50%;
+	padding: 40px 20px;
+}
+.body-content .body-content-left .contact{
+	padding: 25px;
+} 
+.body-content .body-content-left .contact hr:nth-child(2){
+	width:84%;
+	margin-bottom: 8px;
+}
+.body-content .body-content-left .contact p:nth-child(4){
+    padding-bottom: 15px;
+    width:93%;
+}
+.body-content .body-content-left .contact p:nth-child(6){
+    padding-bottom: 15px;
+    width:93%;
+}
+.body-content .body-content-left .language{
+	padding: 25px;
+}
+.body-content .body-content-left .language hr:nth-child(2){
+    margin-bottom: 8px;
+}
+.body-content .body-content-right{
+	width:70%;
+	float:left;
+}
+.body-content .body-content-right .summary{
+	padding: 10px 35px;
+}
+.body-content .body-content-right .summary hr{
+	margin-bottom:8px; 
+}
+.body-content .body-content-right .skill{
+	padding: 10px 35px;
+}
+.body-content .body-content-right .skill:after{
+	content:'';
+	display:block;
+	clear:both;
+
+}
+.body-content .body-content-right .skill hr{
+	margin-bottom:8px; 
+}
+.body-content .body-content-right .skill .skill-left{
+	width:50%;
+	float:left;
+
+}
+.body-content .body-content-right .skill .skill-left ul{
+	padding-left: 44px;
+}
+.body-content .body-content-right .skill .skill-right{
+	width:50%;
+	float:left;
+}
+.body-content .body-content-right .experience{
+	padding: 10px 35px;
+}
+.body-content .body-content-right .experience ul{
+	padding-left: 44px;
+}
+.body-content .body-content-right .experience hr{
+	margin-bottom:8px; 
+}
+.body-content .body-content-right .educaion{
+	padding: 10px 35px;
+}
+.body-content .body-content-right .educaion hr{
+	margin-bottom:8px;
+}
+.body-content .body-content-right .certifications{
+	padding: 10px 35px;
+}
+.body-content .body-content-right .certifications hr{
+	margin-bottom:8px;
+}
+.body-content .body-content-right .certifications p:nth-child(4){
+    padding-bottom: 190px;
+}
+.footer:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.footer .footer-left{
+	width:30%;
+	float:left;
+	background-color: #e6e6e6;
+	height:35px;
+}
+.footer .footer-right{
+	width:70%;
+	float:left;
+	background-color: #0047b3;
+	height:35px;
+}
+.footer {
+	margin-bottom: 25px;
+}
